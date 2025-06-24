@@ -16,11 +16,11 @@
 
 </div>
 
-**Note:** This repository, `https://github.com/Debronejacobs/ICP-browser-agent`, is a **fork** of the original [Nanobrowser](https://github.com/nanobrowser/nanobrowser) project. The focus of this fork is to integrate Nanobrowser with the **Internet Computer Protocol (ICP)** for decentralized data storage and secure login, aiming to enhance robustness and data privacy.
+**Note:** This repository, , is a **fork** of the original [Nanobrowser](https://github.com/nanobrowser/nanobrowser) project. The focus of this fork is to integrate Nanobrowser with the **Internet Computer Protocol (ICP)** for decentralized data storage and secure login, aiming to enhance robustness and data privacy.
 
 ## 🌐 Nanobrowser with ICP Integration
 
-Nanobrowser is an open-source AI web automation tool that runs in your browser. This fork, hosted at `https://github.com/Debronejacobs/ICP-browser-agent`, extends its capabilities by integrating with the Internet Computer Protocol (ICP). Our goal is to leverage ICP for decentralized data storage (e.g., conversation history, user preferences) and secure login mechanisms. We aim to provide a free, privacy-centric alternative to tools like OpenAI Operator, with flexible LLM options, a multi-agent system, and the added benefits of ICP's decentralized infrastructure.
+Nanobrowser is an open-source AI web automation tool that runs in your browser. This fork extends its capabilities by integrating with the Internet Computer Protocol (ICP). Our goal is to leverage ICP for decentralized data storage (e.g., conversation history, user preferences) and secure login mechanisms. We aim to provide a free, privacy-centric alternative to tools like OpenAI Operator, with flexible LLM options, a multi-agent system, and the added benefits of ICP's decentralized infrastructure.
 
 ⬇️ For the **original Nanobrowser** experience, you can get it from the [Chrome Web Store](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal).
 **This ICP-enhanced fork (`Debronejacobs/ICP-browser-agent`) requires manual installation (see "Manually Install Latest Version" or "Build from Source" below).**
