@@ -1,9 +1,10 @@
 {
-  "extends": "@extension/tsconfig/utils",
+  "extends": "../tsconfig/app.json",
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "dist",
-    "types": ["chrome"]
+    "types": ["chrome"],
+    "noEmit": false
   },
   "include": ["index.ts", "lib"]
 }
