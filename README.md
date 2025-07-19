@@ -1,98 +1,103 @@
+<div align="center">
 
+# AIbrowser: Autonomous AI Agents for the Web, Supercharged by ICP
 
-<!-- This badge points to YOUR fork -->
+**Your personal team of AI agents that browse, research, and automate tasks on the web, with all your data and session history secured on the decentralized Internet Computer.**
 
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Debronejacobs/ICP-browser-agent)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Project Status](https://img.shields.io/badge/status-in_development-orange)](https://github.com/Debronejacobs/ICP-browser-agent/issues)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Debronejacobs/ICP-browser-agent/pulls)
 
 </div>
 
+This project enhances the open-source **AIbrowser** with **Internet Computer (ICP)** integration, transforming a powerful browser automation tool into a persistent, private, and truly autonomous agentic system.
 
-## 🌐 AIbrowser with ICP Integration
-
-AIbrowser is an open-source AI web automation tool that runs in your browser. This fork extends its capabilities by integrating with the Internet Computer Protocol (ICP). Our goal is to leverage ICP for decentralized data storage (e.g., conversation history, user preferences) and secure login mechanisms. We aim to provide a free, privacy-centric alternative to tools like OpenAI Operator, with flexible LLM options, a multi-agent system, and the added benefits of ICP's decentralized infrastructure.
-
-
-
-
-
-
+<br>
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/112c4385-7b03-4b81-a352-4f348093351b" width="600" alt="AIbrowser Demo GIF" />
-<p><em>AIbrowser's multi-agent system analyzing HuggingFace in real-time. This fork aims to store interaction data and manage user sessions via ICP.</em></p>
+<p><em>Watch AIbrowser's agent team in action: The <b>Planner</b> designs a task, the <b>Navigator</b> executes web actions, and the <b>Validator</b> checks the work, all in real-time. This fork stores the results and user identity on ICP.</em></p>
 </div>
 
-## 🔥 Why AIbrowser with ICP?
+## 🤖 What is AIbrowser? The Power of an Agent Team
 
-Building upon the strengths of the original AIbrowser, this fork (`Debronejacobs/ICP-browser-agent`) introduces ICP integration to further enhance its capabilities:
+AIbrowser isn't just a chatbot that answers questions; it's a **fully autonomous multi-agent system** that lives in your browser. It gives a team of specialized AI agents direct control over a web browser to accomplish complex tasks on your behalf.
 
--   **100% Free**: No subscription fees. Use your own API keys for LLMs.
--   **Privacy-Focused**: Runs in your local browser. Credentials stay local.
--   **Flexible LLM Options**: Connect to preferred LLM providers.
--   **Fully Open Source**: Transparent browser automation.
--   **✨ ICP-Powered Data Persistence (In Progress in this fork)**: User data, conversation history, and configurations can be securely stored on the Internet Computer.
--   **✨ ICP-Powered Secure Login (Planned for this fork)**: Leverage Internet Identity or canister-based authentication.
--   **✨ Enhanced Data Privacy & Robustness (Goal of this fork)**: Utilize ICP's architecture for greater user control and a decentralized backend.
+### How the AI Agent Team Works
 
-> **Note:** LLM provider support currently includes OpenAI, Anthropic, Gemini, Ollama, Groq, Cerebras and custom OpenAI-Compatible providers (from the original project).
+When you give AIbrowser a goal, a collaborative process begins:
 
-## 📊 Key Features (Including Planned ICP Enhancements in this Fork)
+1.  🧠 **The Planner (The Strategist):** This agent analyzes your high-level goal and breaks it down into a concrete, step-by-step plan. For example, "find top speakers" becomes "1. Navigate to Amazon. 2. Search for 'Bluetooth speakers'. 3. Filter by 'water-resistant'. 4. Extract results."
 
--   **Multi-agent System**: Specialized AI agents collaborate on web workflows.
--   **Interactive Side Panel**: Intuitive chat interface with real-time updates.
--   **Task Automation**: Automate repetitive web tasks.
--   **Follow-up Questions**: Contextual follow-ups on completed tasks.
--   **Conversation History**: Access and manage interaction history.
-    -   **ICP Enhancement (This Fork)**: Store history securely and persistently on the Internet Computer.
--   **Multiple LLM Support**: Connect preferred LLMs, assign different models to agents.
--   **Secure User Authentication (Planned for this fork via ICP)**: Robust and decentralized login.
--   **Decentralized Data Storage (In Progress in this fork via ICP)**: Store user settings on-chain.
+2.  🖱️ **The Navigator (The Operator):** This agent executes the plan. It's the one that actually clicks buttons, types into search bars, scrolls pages, and extracts data from the web page's content.
 
-## 🌐 Browser Support
+3.  ✅ **The Validator (The Quality Analyst):** After each step, this agent reviews the Navigator's work. Did it successfully navigate to the right page? Did it extract the correct information? If not, it provides feedback so the team can self-correct and try again.
 
-**Officially Supported (for base AIbrowser functionality from the original project):**
--   **Chrome** - Full support
--   **Edge** - Full support
+This continuous loop of **Plan -> Execute -> Validate** allows AIbrowser to tackle dynamic and complex workflows that a simple script could not.
 
-**Not Supported (by the original project):**
--   Firefox, Safari, and other Chromium variants (Opera, Arc, etc.)
+## ✨ Why Supercharge Agents with the Internet Computer (ICP)?
 
-> **Note**: While AIbrowser may function on other Chromium-based browsers, Chrome or Edge are recommended.
+While powerful, standard browser agents have a major limitation: they are stateless and forgetful. Close the browser, and their memory is gone. This fork (`Debronejacobs/ICP-browser-agent`) solves this by integrating with ICP, giving your agent team:
 
-## 🚀 Quick Start (This ICP Fork: `Debronejacobs/ICP-browser-agent`)
+-   **🔐 A Secure, Persistent Memory:** Conversation history, agent preferences, and task results are stored securely on the decentralized Internet Computer, not just your local machine. Your agents remember you and your past interactions across sessions and devices.
+-   **👤 A Sovereign Identity:** Instead of relying on traditional logins, we are implementing Internet Identity. You own and control your access, ensuring a private and secure user experience.
+-   **🚀 Unstoppable & Resilient Backend:** By leveraging ICP's decentralized architecture, the "backend" for your agents is robust, tamper-proof, and always available, free from single points of failure.
+-   **💸 100% Free & Open:** AIbrowser remains completely free. You bring your own LLM keys, and the ICP integration provides a powerful, privacy-preserving alternative to costly cloud services.
+
+## 🔥 Key Features
+
+-   🧠 **Autonomous Multi-Agent System:** A team of Planner, Navigator, and Validator agents collaborate to achieve your goals.
+-   💬 **Interactive Side Panel:** Command your agents and see their real-time progress through an intuitive chat interface.
+-   🔄 **Contextual Follow-up:** Ask follow-up questions and refine tasks; the agents remember the context.
+-   🔌 **Flexible LLM Support:** Connect to OpenAI, Anthropic, Gemini, Groq, Ollama, and other providers. You can even assign different models to different agents for optimal performance and cost!
+-   **[✨ ICP Enhanced] Persistent, Decentralized History:** Securely store and access your full conversation history on the Internet Computer.
+-   **[✨ ICP Enhanced] Decentralized Configuration:** Your agent settings and API keys can be stored securely on-chain.
+-   **[✨ ICP Planned] Secure & Sovereign Login:** Authenticate using Internet Identity for a passwordless, privacy-first experience.
+
+## 💡 See The Agent Team In Action
+
+These examples showcase the kind of complex tasks the agentic system can handle:
+
+> "Go to GitHub's trending page for Python. Find the top 3 repositories. For each one, visit its page, find its primary license, and tell me how many stars it has. Compile the results in a table."
+
+> "I need a recipe for vegan lasagna. Search for a highly-rated one on Google, navigate to the recipe page, and extract the full list of ingredients and the step-by-step instructions."
+
+> "Research the new 'Claude 3.7 Sonnet' model. Go to the official Anthropic blog, find the announcement post, and summarize the key improvements over the previous model in three bullet points."
+
+---
+
+## 🚀 Quick Start
 
 1.  **Install this Fork Manually:**
-    *   Since this is a developmental fork with ICP integration, follow the "Manually Install Latest Version" or "Build from Source" instructions below, using the code from **this repository (`https://github.com/Debronejacobs/ICP-browser-agent`)**.
+    *   Since this is a developmental fork, you must install it from the source code in this repository. Follow the "Manually Install" instructions below.
 
-2.  **Configure Agent Models**:
-    *   Open AIbrowser sidebar, click `Settings`.
-    *   Add LLM API keys.
-    *   Choose models for agents.
-    *   *(ICP Specific)*: Configuration for ICP endpoint/canister IDs will be added here as development progresses in this fork.
+2.  **Configure Agents:**
+    *   Open the AIbrowser sidebar in your browser and click the `Settings` icon.
+    *   Add your preferred LLM provider API keys.
+    *   Choose which models to use for the Planner, Navigator, and Validator agents.
+    *   *(ICP Specific)*: As development progresses, canister and identity configuration will appear here.
 
-## 🔧 Manually Install Latest Version (This ICP Fork: `Debronejacobs/ICP-browser-agent`)
+## 🔧 Manually Install Latest Version
 
-To get the most recent version of this ICP-enhanced fork:
+1.  **Download:**
+    *   Go to the [Releases page of this repository](https://github.com/Debronejacobs/ICP-browser-agent/releases).
+    *   Download the latest release ZIP file (e.g., `ICP-browser-agent.zip`).
 
-1.  **Download**
-    *   Download the latest release ZIP (e.g., `ICP-browser-agent.zip`) from **this repository's Releases page**: [https://github.com/Debronejacobs/ICP-browser-agent/releases](https://github.com/Debronejacobs/ICP-browser-agent/releases).
-
-2.  **Install**:
+2.  **Install:**
     *   Unzip the downloaded file.
-    *   Open `chrome://extensions/` in Chrome. Enable `Developer mode`.
-    *   Click `Load unpacked` and select the unzipped folder.
+    *   Open `chrome://extensions/` in Chrome or `edge://extensions/` in Edge.
+    *   Enable **Developer mode** (usually a toggle in the top-right corner).
+    *   Click `Load unpacked` and select the unzipped folder you just created.
 
-3.  **Configure Agent Models & ICP Settings**
-    *   As described in the "Quick Start" section.
+3.  **Pin the Extension:**
+    *   Click the puzzle piece icon in your browser's toolbar and pin AIbrowser for easy access.
 
-4.  **Upgrading**:
-    *   Download the latest release ZIP from **this repository's Releases page**.
-    *   Unzip and replace existing files. Refresh the extension in `chrome://extensions/`.
-
-## 🛠️ Build from Source (This ICP Fork: `Debronejacobs/ICP-browser-agent`)
+## 🛠️ Build from Source
 
 1.  **Prerequisites**:
-    *   Node.js (v22.12.0+), pnpm (v9.15.1+)
-    *   **(Potentially)** DFINITY Canister SDK (`dfx`) for ICP canister development. See [ICP docs](https://internetcomputer.org/docs/current/developer-docs/setup/install/).
+    *   Node.js (v22.12.0+) & pnpm (v9.15.1+)
+    *   (For Canister Dev) DFINITY Canister SDK (`dfx`). See [ICP docs](https://internetcomputer.org/docs/current/developer-docs/setup/install/).
 
 2.  **Clone This Repository**:
     ```bash
@@ -102,87 +107,36 @@ To get the most recent version of this ICP-enhanced fork:
 
 3.  **Install Dependencies**: `pnpm install`
 4.  **Build the Extension**: `pnpm build`
-    *   *(ICP Specific)*: Additional build steps for canisters (e.g., `dfx build`) will be detailed here as integration matures.
+5.  **Load in Browser**: The built extension is in the `dist` folder. Follow step 2 from the "Manually Install" section.
 
-5.  **Load the Extension**: Built extension is in `dist`. Follow "Manually Install" steps.
-6.  **Development Mode** (frontend): `pnpm dev`
+---
 
-## 🤖 Choosing Your Models
+## 🛠️ Roadmap (This ICP Fork)
 
-(This section is inherited from the original AIbrowser project and applies to this fork as well.)
-AIbrowser allows different LLM models for each agent. Recommended configurations:
+Our primary focus is on seamlessly blending the core agentic capabilities with the power of the Internet Computer.
 
-### Better Performance
-- **Planner & Validator**: Claude 3.7 Sonnet
-- **Navigator**: Claude 3.5 Haiku
+*   ✅ **Core AIbrowser Functionality**: Ensure base agent stability.
+*   🔄 **ICP Data Storage**: Implement secure storage for conversation history and settings on ICP.
+*   🔐 **ICP Secure Login**: Integrate Internet Identity for canister-based sessions.
+*   🛡️ **Data Privacy & Control**: Explore on-chain encryption and fine-grained access control.
+*   🔌 **Refined Canister Interaction**: Optimize communication between the browser extension and ICP canisters.
+*   📚 **Enhanced Documentation**: Provide clear guides for using and developing the ICP-integrated features.
 
-### Cost-Effective Configuration
-- **Planner & Validator**: Claude Haiku or GPT-4o
-- **Navigator**: Gemini 2.0 Flash or GPT-4o-mini
+Track our progress in this repository's **[Issues](https://github.com/Debronejacobs/ICP-browser-agent/issues)** and **[Discussions](https://github.com/Debronejacobs/ICP-browser-agent/discussions)**.
 
-### Local Models
-- **Setup**: Ollama or custom OpenAI-compatible providers.
-- **Recommended**: Qwen3 14B, Falcon3 10B, Qwen 2.5 Coder 14B, Mistral Small 24B.
-- **Prompting**: Local models need specific prompts.
+## 🤝 Contributing
 
-> **Note**: Cost-effective config may be less stable. Experiment and share!
+We welcome contributions! If you have expertise in React, Browser Extensions, or the Internet Computer, we'd love your help.
 
-## 💡 See It In Action (Base AIbrowser Functionality)
-
-(These examples showcase the core agent system from the original AIbrowser.)
-1.  **News Summary**: > "Go to TechCrunch and extract top 10 headlines from the last 24 hours"
-2.  **GitHub Research**: > "Look for the trending Python repositories on GitHub with most stars"
-3.  **Shopping Research**: > "Find a portable Bluetooth speaker on Amazon with a water-resistant design, under $50. Minimum battery life of 10 hours"
-*The ICP integration in this fork will primarily affect data storage and user authentication.*
-
-## 🛠️ Roadmap (This ICP Fork: `Debronejacobs/ICP-browser-agent`)
-
-Focus for this fork:
-*   ✅ **Core AIbrowser Functionality**: Ensure stability.
-*   🔄 **ICP Data Storage**: Securely store conversation history, settings on ICP.
-*   🔐 **ICP Secure Login**: Integrate Internet Identity, canister-based sessions.
-*   🛡️ **Data Privacy & Control**: On-chain encryption, access control.
-*   🔌 **Canister Interaction**: Refine extension-canister communication.
-*   📚 **Documentation**: Guides for ICP-integrated features.
-
-Track progress in **this repository's Issues and Discussions**:
--   Issues: [https://github.com/Debronejacobs/ICP-browser-agent/issues](https://github.com/Debronejacobs/ICP-browser-agent/issues)
--   Discussions: [https://github.com/Debronejacobs/ICP-browser-agent/discussions](https://github.com/Debronejacobs/ICP-browser-agent/discussions)
-(Original project roadmap: [AIbrowser/AIbrowser/discussions/85](https://github.com/AIbrowser/AIbrowser/discussions/85))
-
-## 🤝 Contributing to this ICP Fork (`Debronejacobs/ICP-browser-agent`)
-
-Help make this ICP-enhanced AIbrowser a reality!
-*   **Share ICP Expertise**.
-*   **Develop ICP Features**: Canister logic, frontend integration.
-*   **Test ICP Integration**.
-*   **Provide Feedback**: Use **this repository's Issues**.
-*   **Contribute Code**:
-    *   Check `CONTRIBUTING.md` (if available in this fork).
-    *   Submit PRs to **this repository** (`Debronejacobs/ICP-browser-agent`).
-
-## 🔒 Security
-
-For vulnerabilities in **this fork (`Debronejacobs/ICP-browser-agent`)**, especially related to ICP:
-Report responsibly via a **GitHub Security Advisory on this repository**:
-[https://github.com/Debronejacobs/ICP-browser-agent/security/advisories/new](https://github.com/Debronejacobs/ICP-browser-agent/security/advisories/new)
-
-(For original AIbrowser security, see their policy.)
-
-## 💬 Community
-
--   **This Fork's Development (`Debronejacobs/ICP-browser-agent`):**
-    -   GitHub Issues: [https://github.com/Debronejacobs/ICP-browser-agent/issues](https://github.com/Debronejacobs/ICP-browser-agent/issues)
-    -   GitHub Discussions: [https://github.com/Debronejacobs/ICP-browser-agent/discussions](https://github.com/Debronejacobs/ICP-browser-agent/discussions)
+*   **Develop ICP Features**: Help build out the canister logic or the frontend integration.
+*   **Test & Report Bugs**: Install the extension and report any issues you find in **[this repository's Issues](https://github.com/Debronejacobs/ICP-browser-agent/issues)**.
+*   **Contribute Code**: Fork the repo, make your changes, and submit a Pull Request.
 
 ## 👏 Acknowledgments
--   Dependencies: [Browser Use](https://github.com/browser-use/browser-use), [Puppeteer (ref: Agent-E)](https://github.com/EmergenceAI/Agent-E), [Chrome Extension Boilerplate](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite), [LangChain](https://github.com/langchain-ai/langchainjs).
--   **The Internet Computer Community**.
--   The NanoBrowser Project
-
-Thanks to their creators and contributors!
+-   The original **[AIbrowser](https://github.com/AIbrowser/AIbrowser)** team for creating an incredible open-source agentic system.
+-   The **Internet Computer Community** for building the future of the decentralized web.
+-   The **NanoBrowser Project**.
+-   Key dependencies like [LangChain](https://github.com/langchain-ai/langchainjs) and [Browser Use](https://github.com/browser-use/browser-use).
 
 ## 📄 License
-
-This project, like the original AIbrowser, is licensed under Apache License 2.0. See [LICENSE](LICENSE).
-
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
