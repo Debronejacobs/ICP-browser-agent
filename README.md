@@ -1,42 +1,34 @@
 <h1 align="center">
     <img src="https://github.com/user-attachments/assets/ec60b0c4-87ba-48f4-981a-c55ed0e8497b" height="100" width="375" alt="banner" /><br>
-    Nanobrowser (ICP Enhanced Fork)
+    
 </h1>
 
 <div align="center">
 
 <!-- This badge points to YOUR fork -->
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Debronejacobs/ICP-browser-agent)
-<!-- This badge points to the ORIGINAL project -->
-[![Original Project](https://img.shields.io/badge/Original_Nanobrowser-181717?style=for-the-badge&logo=github&logoColor=lightgrey)](https://github.com/nanobrowser/nanobrowser)
-<!-- These badges link to the ORIGINAL project's community -->
-[![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/nanobrowser_ai)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/NN3ABHggMK)
-[<img src="https://deepwiki.com/badge.svg" height="28" alt="Ask DeepWiki about Original Nanobrowser">](https://deepwiki.com/nanobrowser/nanobrowser)
+
 
 </div>
 
-**Note:** This repository, , is a **fork** of the original [Nanobrowser](https://github.com/nanobrowser/nanobrowser) project. The focus of this fork is to integrate Nanobrowser with the **Internet Computer Protocol (ICP)** for decentralized data storage and secure login, aiming to enhance robustness and data privacy.
 
-## 🌐 Nanobrowser with ICP Integration
+## 🌐 AIbrowser with ICP Integration
 
-Nanobrowser is an open-source AI web automation tool that runs in your browser. This fork extends its capabilities by integrating with the Internet Computer Protocol (ICP). Our goal is to leverage ICP for decentralized data storage (e.g., conversation history, user preferences) and secure login mechanisms. We aim to provide a free, privacy-centric alternative to tools like OpenAI Operator, with flexible LLM options, a multi-agent system, and the added benefits of ICP's decentralized infrastructure.
+AIbrowser is an open-source AI web automation tool that runs in your browser. This fork extends its capabilities by integrating with the Internet Computer Protocol (ICP). Our goal is to leverage ICP for decentralized data storage (e.g., conversation history, user preferences) and secure login mechanisms. We aim to provide a free, privacy-centric alternative to tools like OpenAI Operator, with flexible LLM options, a multi-agent system, and the added benefits of ICP's decentralized infrastructure.
 
-⬇️ For the **original Nanobrowser** experience, you can get it from the [Chrome Web Store](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal).
-**This ICP-enhanced fork (`Debronejacobs/ICP-browser-agent`) requires manual installation (see "Manually Install Latest Version" or "Build from Source" below).**
 
-👏 Join the **original Nanobrowser community** in [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/nanobrowser_ai)
 
-❤️ Loving Nanobrowser? Give the **original project** a star 🌟 and consider starring **this fork** (`Debronejacobs/ICP-browser-agent`) if you're interested in the ICP integration!
+
+
+
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/112c4385-7b03-4b81-a352-4f348093351b" width="600" alt="Nanobrowser Demo GIF" />
-<p><em>Nanobrowser's multi-agent system analyzing HuggingFace in real-time. This fork aims to store interaction data and manage user sessions via ICP.</em></p>
+<img src="https://github.com/user-attachments/assets/112c4385-7b03-4b81-a352-4f348093351b" width="600" alt="AIbrowser Demo GIF" />
+<p><em>AIbrowser's multi-agent system analyzing HuggingFace in real-time. This fork aims to store interaction data and manage user sessions via ICP.</em></p>
 </div>
 
-## 🔥 Why Nanobrowser with ICP?
+## 🔥 Why AIbrowser with ICP?
 
-Building upon the strengths of the original Nanobrowser, this fork (`Debronejacobs/ICP-browser-agent`) introduces ICP integration to further enhance its capabilities:
+Building upon the strengths of the original AIbrowser, this fork (`Debronejacobs/ICP-browser-agent`) introduces ICP integration to further enhance its capabilities:
 
 -   **100% Free**: No subscription fees. Use your own API keys for LLMs.
 -   **Privacy-Focused**: Runs in your local browser. Credentials stay local.
@@ -62,14 +54,14 @@ Building upon the strengths of the original Nanobrowser, this fork (`Debronejaco
 
 ## 🌐 Browser Support
 
-**Officially Supported (for base Nanobrowser functionality from the original project):**
+**Officially Supported (for base AIbrowser functionality from the original project):**
 -   **Chrome** - Full support
 -   **Edge** - Full support
 
 **Not Supported (by the original project):**
 -   Firefox, Safari, and other Chromium variants (Opera, Arc, etc.)
 
-> **Note**: While Nanobrowser may function on other Chromium-based browsers, Chrome or Edge are recommended.
+> **Note**: While AIbrowser may function on other Chromium-based browsers, Chrome or Edge are recommended.
 
 ## 🚀 Quick Start (This ICP Fork: `Debronejacobs/ICP-browser-agent`)
 
@@ -77,7 +69,7 @@ Building upon the strengths of the original Nanobrowser, this fork (`Debronejaco
     *   Since this is a developmental fork with ICP integration, follow the "Manually Install Latest Version" or "Build from Source" instructions below, using the code from **this repository (`https://github.com/Debronejacobs/ICP-browser-agent`)**.
 
 2.  **Configure Agent Models**:
-    *   Open Nanobrowser sidebar, click `Settings`.
+    *   Open AIbrowser sidebar, click `Settings`.
     *   Add LLM API keys.
     *   Choose models for agents.
     *   *(ICP Specific)*: Configuration for ICP endpoint/canister IDs will be added here as development progresses in this fork.
@@ -122,8 +114,8 @@ To get the most recent version of this ICP-enhanced fork:
 
 ## 🤖 Choosing Your Models
 
-(This section is inherited from the original Nanobrowser project and applies to this fork as well.)
-Nanobrowser allows different LLM models for each agent. Recommended configurations:
+(This section is inherited from the original AIbrowser project and applies to this fork as well.)
+AIbrowser allows different LLM models for each agent. Recommended configurations:
 
 ### Better Performance
 - **Planner & Validator**: Claude 3.7 Sonnet
@@ -140,9 +132,9 @@ Nanobrowser allows different LLM models for each agent. Recommended configuratio
 
 > **Note**: Cost-effective config may be less stable. Experiment and share!
 
-## 💡 See It In Action (Base Nanobrowser Functionality)
+## 💡 See It In Action (Base AIbrowser Functionality)
 
-(These examples showcase the core agent system from the original Nanobrowser.)
+(These examples showcase the core agent system from the original AIbrowser.)
 1.  **News Summary**: > "Go to TechCrunch and extract top 10 headlines from the last 24 hours"
 2.  **GitHub Research**: > "Look for the trending Python repositories on GitHub with most stars"
 3.  **Shopping Research**: > "Find a portable Bluetooth speaker on Amazon with a water-resistant design, under $50. Minimum battery life of 10 hours"
@@ -151,7 +143,7 @@ Nanobrowser allows different LLM models for each agent. Recommended configuratio
 ## 🛠️ Roadmap (This ICP Fork: `Debronejacobs/ICP-browser-agent`)
 
 Focus for this fork:
-*   ✅ **Core Nanobrowser Functionality**: Ensure stability.
+*   ✅ **Core AIbrowser Functionality**: Ensure stability.
 *   🔄 **ICP Data Storage**: Securely store conversation history, settings on ICP.
 *   🔐 **ICP Secure Login**: Integrate Internet Identity, canister-based sessions.
 *   🛡️ **Data Privacy & Control**: On-chain encryption, access control.
@@ -161,11 +153,11 @@ Focus for this fork:
 Track progress in **this repository's Issues and Discussions**:
 -   Issues: [https://github.com/Debronejacobs/ICP-browser-agent/issues](https://github.com/Debronejacobs/ICP-browser-agent/issues)
 -   Discussions: [https://github.com/Debronejacobs/ICP-browser-agent/discussions](https://github.com/Debronejacobs/ICP-browser-agent/discussions)
-(Original project roadmap: [nanobrowser/nanobrowser/discussions/85](https://github.com/nanobrowser/nanobrowser/discussions/85))
+(Original project roadmap: [AIbrowser/AIbrowser/discussions/85](https://github.com/AIbrowser/AIbrowser/discussions/85))
 
 ## 🤝 Contributing to this ICP Fork (`Debronejacobs/ICP-browser-agent`)
 
-Help make this ICP-enhanced Nanobrowser a reality!
+Help make this ICP-enhanced AIbrowser a reality!
 *   **Share ICP Expertise**.
 *   **Develop ICP Features**: Canister logic, frontend integration.
 *   **Test ICP Integration**.
@@ -180,21 +172,15 @@ For vulnerabilities in **this fork (`Debronejacobs/ICP-browser-agent`)**, especi
 Report responsibly via a **GitHub Security Advisory on this repository**:
 [https://github.com/Debronejacobs/ICP-browser-agent/security/advisories/new](https://github.com/Debronejacobs/ICP-browser-agent/security/advisories/new)
 
-(For original Nanobrowser security, see their policy.)
+(For original AIbrowser security, see their policy.)
 
 ## 💬 Community
 
 -   **This Fork's Development (`Debronejacobs/ICP-browser-agent`):**
     -   GitHub Issues: [https://github.com/Debronejacobs/ICP-browser-agent/issues](https://github.com/Debronejacobs/ICP-browser-agent/issues)
     -   GitHub Discussions: [https://github.com/Debronejacobs/ICP-browser-agent/discussions](https://github.com/Debronejacobs/ICP-browser-agent/discussions)
--   **Original Nanobrowser Community:**
-    -   [Discord](https://discord.gg/NN3ABHggMK)
-    -   [Twitter](https://x.com/nanobrowser_ai)
 
 ## 👏 Acknowledgments
-
-This project (`Debronejacobs/ICP-browser-agent`) is a fork of and builds upon:
--   **[Nanobrowser (Original)](https://github.com/nanobrowser/nanobrowser)**
 -   Dependencies: [Browser Use](https://github.com/browser-use/browser-use), [Puppeteer (ref: Agent-E)](https://github.com/EmergenceAI/Agent-E), [Chrome Extension Boilerplate](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite), [LangChain](https://github.com/langchain-ai/langchainjs).
 -   **The Internet Computer Community**.
 
@@ -202,11 +188,5 @@ Thanks to their creators and contributors!
 
 ## 📄 License
 
-This project, like the original Nanobrowser, is licensed under Apache License 2.0. See [LICENSE](LICENSE).
+This project, like the original AIbrowser, is licensed under Apache License 2.0. See [LICENSE](LICENSE).
 
----
-
-Made with ❤️ by Debronejacobs (fork maintainer) and the original Nanobrowser Team.
-
-Interested in the ICP integration? Star **this fork** (`Debronejacobs/ICP-browser-agent`) 🌟!
-For general Nanobrowser love, star the [original project](https://github.com/nanobrowser/nanobrowser) and join them on [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/nanobrowser_ai).
