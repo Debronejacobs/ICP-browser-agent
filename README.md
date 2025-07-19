@@ -178,6 +178,7 @@ Report responsibly via a **GitHub Security Advisory on this repository**:
 ## 👏 Acknowledgments
 -   Dependencies: [Browser Use](https://github.com/browser-use/browser-use), [Puppeteer (ref: Agent-E)](https://github.com/EmergenceAI/Agent-E), [Chrome Extension Boilerplate](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite), [LangChain](https://github.com/langchain-ai/langchainjs).
 -   **The Internet Computer Community**.
+-   The NanoBrowser Project
 
 Thanks to their creators and contributors!
 
